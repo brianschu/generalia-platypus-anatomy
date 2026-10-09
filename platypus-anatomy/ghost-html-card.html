@@ -1,11 +1,28 @@
 <style>
-  .generalia-platypus-card { width:100%; max-width:100%; min-height:760px; overflow:hidden; background:#101514; border-radius:12px; }
-  .generalia-platypus-card iframe { display:block; width:100%; height:820px; border:0; }
-  @media (max-width:700px) {
-    .generalia-platypus-card { width:100vw; max-width:100vw; margin-left:calc(50% - 50vw); margin-right:calc(50% - 50vw); border-radius:0; }
-    .generalia-platypus-card iframe { height:980px; }
+  .generalia-platypus-card {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+    overflow: hidden;
+    background: #101514;
+  }
+  .generalia-platypus-card iframe {
+    display: block !important;
+    width: 100% !important;
+    height: 1100px !important;
+    min-height: 1100px !important;
+    max-height: none !important;
+    border: 0;
+    aspect-ratio: auto !important;
+  }
+  @media (max-width: 700px) {
+    .generalia-platypus-card iframe {
+      height: 1100px !important;
+      min-height: 1100px !important;
+    }
   }
 </style>
 <div class="generalia-platypus-card">
-  <iframe src="https://OWNER.github.io/REPOSITORY/platypus-anatomy/?embed=1" title="Generalia platypus anatomy viewer" loading="lazy" allow="fullscreen" allowfullscreen></iframe>
+  <iframe src="https://brianschu.github.io/generalia-platypus-anatomy/platypus-anatomy/?embed=1" title="Generalia platypus anatomy viewer" loading="lazy" allow="fullscreen" allowfullscreen></iframe>
 </div>
