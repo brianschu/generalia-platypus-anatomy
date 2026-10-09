@@ -1,3 +1,10 @@
-This is a Ghost HTML card template. After GitHub Pages is enabled, replace OWNER and REPOSITORY in the iframe URL with the verified Pages address, then paste the contents into one Ghost HTML card.
+The viewer is live at:
+https://brianschu.github.io/generalia-platypus-anatomy/platypus-anatomy/?embed=1
 
-The CSS sizes only the iframe wrapper on the Ghost page; it does not style the page inside the iframe. If the frame feels cramped, increase the iframe height here.
+To embed it in Ghost:
+1. Open the Ghost page or post editor.
+2. Add an HTML card where the viewer should appear.
+3. Copy all of the contents of ghost-html-card.html into the card.
+4. Preview the page on desktop and mobile, then publish or update the page.
+
+The card uses a full-width layout and a 1100 px frame so the anatomy key and viewer fit. The CSS sizes the outer iframe only; it does not change the viewer inside it. If the Ghost theme constrains the card, add the same CSS to the theme's site-wide stylesheet.
