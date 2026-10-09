@@ -1,0 +1,3 @@
+This is a Ghost HTML card template. After GitHub Pages is enabled, replace OWNER and REPOSITORY in the iframe URL with the verified Pages address, then paste the contents into one Ghost HTML card.
+
+The CSS sizes only the iframe wrapper on the Ghost page; it does not style the page inside the iframe. If the frame feels cramped, increase the iframe height here.

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171b19">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='17' fill='%23171b19' stroke='%23d4cbb4'/%3E%3Cpath d='M20 8v24M10 14l20 12M30 14L10 26' stroke='%23d4cbb4'/%3E%3C/svg%3E">
+  <title>Credits / Platypus skeletal inspection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="index.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><span>GENERALIA <small>FIELD NOTES / 01</small></span></a>
+    <div class="topbar-right"><span class="prototype-pill"><span></span> LOCAL / UNPUBLISHED</span><a class="credits-link" href="index.html">Viewer <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main class="credits-page">
+    <a class="back-link" href="index.html">← Return to inspection</a>
+    <div class="eyebrow" style="margin-top: 36px"><span>PROVENANCE / METHOD</span><span class="eyebrow-rule"></span><span>LOCAL PROTOTYPE</span></div>
+    <h1>Source, <em>and scope.</em></h1>
+    <p class="credits-lede">Geometry attribution, color conventions and the scope of this reviewed anatomy preview.</p>
+
+    <section class="credit-block">
+      <p class="credit-label">MODEL ATTRIBUTION</p>
+      <h2>Ornithorynque (Ornithorhynchus anatinus)</h2>
+      <p>Model by <a href="https://sketchfab.com/JChanteloupUPS" target="_blank" rel="noreferrer">JChanteloupUPS</a>, credited to the Collection de Zoologie, Université Paul Sabatier–Toulouse III.</p>
+      <p><a href="https://sketchfab.com/3d-models/ornithorynque-ornithorhynchus-anatinus-d33bf833a6e644b79052d4d3771b786c" target="_blank" rel="noreferrer">Original Sketchfab model record</a>.</p>
+      <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>. Attribution is retained here and in the viewer.</p>
+    </section>
+
+    <section class="credit-block">
+      <p class="credit-label">CHANGES IN THIS PROTOTYPE</p>
+      <h2>Geometry kept; skeletal groups colored.</h2>
+      <ul>
+        <li>Imported the source FBX in Blender and exported its evaluated mesh as a static GLB.</li>
+        <li>Applied a neutral ivory material for inspection. Original material assignments remain in the saved Blender inspection scene.</li>
+        <li>Excluded the original rig, skinning, and animation from the static GLB.</li>
+        <li>Added independently reviewed surface annotations for eleven gross skeletal groups. Ivory and anatomy colors use the same skeleton geometry.</li>
+        <li>Kept uncertain contacts gray. No fine sutures, individual constituent boundaries or serial bone identities were invented.</li>
+      </ul>
+      <p class="credit-caution">The original animation rig does not identify anatomical bones. The color review approves visible gross surface groups; it does not certify individual-bone segmentation, specimen identity or the living-to-skeleton fit.</p>
+    </section>
+
+    <section class="credit-block">
+      <p class="credit-label">LIVING EXTERIOR / SEPARATE INSPECTION</p>
+      <h2>An illustrative reconstruction under review.</h2>
+      <p><a href="living-inspection.html">Living source inspection</a> displays the existing Generalia exterior supplied with this project. It represents an adult male composite, not a scanned living counterpart of the Toulouse skeleton. Foot morphology and final appearance remain under review.</p>
+      <p>The copied GLB geometry and base-color textures are unchanged. This inspection uses studio lighting and reduced coat normal, specular and sheen response. The shared coat/foot-skin material also receives this response change; it does not correct foot structure. Native underfur differs from the browser guard-hair representation.</p>
+    </section>
+
+    <section class="credit-block">
+      <p class="credit-label">LOCAL RUNTIME</p>
+      <h2>Three.js, bundled for offline use.</h2>
+      <p>This prototype uses the local Three.js r180 modules, including OrbitControls and GLTFLoader. The upstream Three.js MIT license and the accompanying vendor license files are included in <code>vendor/</code>.</p>
+    </section>
+
+    <section class="credit-block">
+      <p class="credit-label">ANATOMICAL COLOR CONVENTIONS</p>
+      <h2>Referenced conventions, and separate proposals.</h2>
+      <p>Jaimi Gray publishes distinct colors for identified skeletal elements. The reviewed humerus surface family uses the documented humerus blue. Forearms remain a combined group, so the individual radius and ulna colors are not assigned.</p>
+      <p><a href="https://www.graysvertebrateanatomy.com/work/forelimbhomology/" target="_blank" rel="noreferrer">Forelimb Homology</a> examples:</p>
+      <div class="color-list" aria-label="Examples from Jaimi Gray's forelimb color table">
+        <div class="color-row"><span class="color-chip" style="--chip:#3157FF"></span><span>Humerus</span><code>#3157FF</code></div>
+        <div class="color-row"><span class="color-chip" style="--chip:#D0F18D"></span><span>Radius</span><code>#D0F18D</code></div>
+        <div class="color-row"><span class="color-chip" style="--chip:#84B1C8"></span><span>Ulna</span><code>#84B1C8</code></div>
+        <div class="color-row"><span class="color-chip" style="--chip:#CD4D79"></span><span>Carpals</span><code>#CD4D79</code></div>
+        <div class="color-row"><span class="color-chip" style="--chip:#FFAAC9"></span><span>Phalanges</span><code>#FFAAC9</code></div>
+      </div>
+      <p><a href="https://www.graysvertebrateanatomy.com/work/colorsofskullanatomy/" target="_blank" rel="noreferrer">Gray’s Colors of Skull Anatomy</a> examples:</p>
+      <div class="color-list" aria-label="Examples from Jaimi Gray's skull color table">
+        <div class="color-row"><span class="color-chip" style="--chip:#7DE8E1"></span><span>Frontal</span><code>#7DE8E1</code></div>
+        <div class="color-row"><span class="color-chip" style="--chip:#FFED4C"></span><span>Maxilla</span><code>#FFED4C</code></div>
+        <div class="color-row"><span class="color-chip" style="--chip:#91EB78"></span><span>Dentary</span><code>#91EB78</code></div>
+      </div>
+      <p>The skull examples are reference conventions. Current skull and jaw surfaces use one Generalia composite hue because fine sutures are unresolved.</p>
+      <div class="proposal-separation">
+        <p class="credit-label">PROPOSED GENERALIA EXTENSIONS / SEPARATE FROM THE SOURCE TABLES</p>
+        <p>The other group hues are Generalia display extensions. The hand complex borrows Gray's carpal hue as a composite proposal; it does not claim that the entire hand is carpal bone. The foot complex similarly uses the project's proposed tarsal hue. Shoulder and pelvic colors identify whole complexes with unresolved constituents.</p>
+      </div>
+      <p class="credit-caution">Biodiversity's annotated platypus was used as a scientific and presentation benchmark only. Its geometry was not reused. This preview offers reviewed gross group colors; its source detail and constituent segmentation do not match that benchmark.</p>
+    </section>
+
+    <footer class="page-footer"><span>AN INSPECTION SURFACE / NOT AN ANATOMICAL ATLAS</span><span>SOURCE: COLLECTION DE ZOOLOGIE — TOULOUSE</span></footer>
+  </main>
+</body>
+</html>
