@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "colors_reviewer_sol",
+  "authority": "Independent PASS/REVISE/BLOCKED anatomical color reviewer",
+  "reviewedAtUtc": "2026-10-09T12:55:10.4676620Z",
+  "candidateManifest": "work/combined-colors/candidate-manifest.json",
+  "candidateManifestSha256": "641117e8b9f8a69d736548a046cac39f1dba16f69a7dd3c37500f01efcbe0179",
+  "sourceGlbSha256": "368451cc013e861bb07bc52ac2e3e0ba48638b4c2536c87c89a7f5cc08fe3899",
+  "sourceTriangleCount": 37662,
+  "coloredTriangleCount": 36420,
+  "unresolvedTriangleCount": 1242,
+  "overallDecision": "PASS",
+  "decisionScope": "Bounded approval of 11 coarse anatomical surface annotations on the unchanged source geometry. This is not certification of individual constituent bones or exact fused joint boundaries.",
+  "groups": [
+    {
+      "id": "thoracic-cage-surfaces",
+      "decision": "PASS",
+      "triangleCount": 11668,
+      "scope": "PASS for gross rib and sternum surface complex. Individual ribs, costal cartilage, sternebrae and fine contacts are unresolved.",
+      "triangleIndicesSha256": "5b04c6f425204dfeaf045e31bd9d00f1a17a79160a40f50931fce75c34cefd01",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "axial-column-surfaces",
+      "decision": "PASS",
+      "triangleCount": 6652,
+      "scope": "PASS for gross vertebral column including reviewed caudal exit processes. Regional and serial vertebral boundaries are unresolved; small contacts remain neutral.",
+      "triangleIndicesSha256": "fdc2e78abcf0b444acd0b6883b4bfb3a27e2b53695104f22b40e1b6b8150aec9",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "skull-jaw-complex",
+      "decision": "PASS",
+      "triangleCount": 3929,
+      "scope": "PASS for complete gross skull and upper/lower jaw complex. Constituent bones, sutures and separate mandible identity are not certified.",
+      "triangleIndicesSha256": "a0780972f71c568d0a076db93fce79c090476bbcc6c66cf50babf37d310852c0",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "pectoral-girdle-complex",
+      "decision": "PASS",
+      "triangleCount": 1473,
+      "scope": "PASS for gross pectoral plate complex after proximal humerus spill removal. Constituent scapular, clavicular and coracoid boundaries are unresolved.",
+      "triangleIndicesSha256": "97392e14550de3e2799863705e02e33c625d5b757927ec23b527d49679fadc7e",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "pelvic-girdle-complex",
+      "decision": "PASS",
+      "triangleCount": 1309,
+      "scope": "PASS for gross pelvic plate complex after narrowed femoral interfaces and neutralized ventral caudal strip. Small remaining gold/neutral contact fragments are unresolved interfaces; no individual sacral or epipubic identity is certified.",
+      "triangleIndicesSha256": "c3774d5ff34271ba09c3eba89b0a53dcfcc5f69cd700801e8e6ef0976ebe5415",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "fore-humerus-candidate",
+      "decision": "PASS",
+      "triangleCount": 1335,
+      "scope": "PASS for gross humerus surface family after body precedence removes girdle spill. Exact fused joint contacts remain unresolved. Gray humerus hue is applicable at this family scope.",
+      "triangleIndicesSha256": "cbd99ba8e207333c4757e9a92ac2107b2ac31a5602a158277ec6a56582a8989e",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "forearm-complex-candidate",
+      "decision": "PASS",
+      "triangleCount": 896,
+      "scope": "PASS for gross paired forearm surface region between elbow and wrist, with neutral joint bands. Radius and ulna are combined; individual identities and precise articular boundaries are not certified.",
+      "triangleIndicesSha256": "a1fe007ff57ed024505a624d0a1fbe744f5916a20739db73c1cf908f490438ad",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "manus-complex-candidate",
+      "decision": "PASS",
+      "triangleCount": 3453,
+      "scope": "PASS for gross distal hand complex after removal of false elevated palm seed and downward wrist clipping. Carpals, metacarpals and phalanges are combined. This is a Generalia composite color borrowing Gray carpal hue, not a sourced whole-hand Gray slot.",
+      "triangleIndicesSha256": "fed463b082af94b04ccdad83312480654ad21c040ed7bff0bd16e6c10fc77587",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "hind-femur-candidate",
+      "decision": "PASS",
+      "triangleCount": 879,
+      "scope": "PASS for gross femur surface family after body precedence removes pelvic spill. Exact proximal and distal fused articular boundaries remain unresolved.",
+      "triangleIndicesSha256": "43a4d7eb7a28d46e756970c1cd62b2b440632a5e10af5ed82a97e13fa1447a55",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "hind-shank-complex-candidate",
+      "decision": "PASS",
+      "triangleCount": 1915,
+      "scope": "PASS for gross paired hind shank and ankle-contact surface region. Teal includes prominent ankle/heel projections of unresolved constituent identity; do not claim exact complete tibia/fibula-only boundaries.",
+      "triangleIndicesSha256": "c41783c0cc3b63afd1829794a8f5992ba6b8ee7a215e1499b6d6fc00f6b940dd",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    },
+    {
+      "id": "pes-complex-candidate",
+      "decision": "PASS",
+      "triangleCount": 2911,
+      "scope": "PASS for gross distal foot surface complex after downward ankle clipping. Tarsals, metatarsals and phalanges are combined; proximal ankle-contact projections remain in the adjacent coarse shank/ankle region. This is a Generalia composite extension, not individual tarsal identity.",
+      "triangleIndicesSha256": "568506d137c8ac8de9cf749ff09fc3bb0fde2049edc65b4fffd809e3581c554c",
+      "membershipHashEncoding": "UTF8 comma-joined ordered triangle indices"
+    }
+  ],
+  "evidence": [
+    "All four refreshed browser whole views in work/combined-colors: dorsal, ventral, lateral, oblique.",
+    "All 33 refreshed close group views: dorsal, ventral and oblique for each of the 11 groups.",
+    "Neutral source multi-view renders and actual ray hit coordinates, including removal of false elevated right palm seed.",
+    "Earlier rejected cycles and subsequent actual geometry boundary corrections retained in work/color-review.",
+    "Saved Biodiversity benchmark and zoom screenshots inspected directly for color readability comparison."
+  ],
+  "presentation": {
+    "decision": "PASS",
+    "scope": "Gross group color readability",
+    "observations": [
+      "Skull purple, column lavender, cage cyan, pectoral green, pelvis gold, proximal limb blues and distal pinks distinguish broad anatomical regions against the dark background.",
+      "Forearm and hind shank reuse teal, while hand and foot pinks are similar; their spatial positions and labels should provide identity. Do not rely on hue alone.",
+      "Biodiversity benchmark has finer geometry and more constituent colors. Current display achieves clear coarse regional presentation without claiming equivalent scientific segmentation or source detail.",
+      "Whole candidate skeleton is relatively small in review frames; final public framing and legend usability require separate review."
+    ]
+  },
+  "limitations": [
+    "Source is a fused artist mesh with generic rig controls, not a specimen-derived individual-bone segmentation.",
+    "Anatomical approval is based on visible gross geometry across multiple views; no rig label or bounding box is treated as bone identity.",
+    "Neutral contacts, small digit tips, and uncertain surface slivers remain intentionally unresolved. Colored percentage is coverage, not an accuracy percentage.",
+    "Skull sutures, serial vertebrae, girdle constituents, radius versus ulna, tibia versus fibula, and individual manus/pes bones are not certified.",
+    "Hind shank scope includes unresolved ankle/heel projections and pelvic scope includes unresolved contact fragments; public names must reflect these limits.",
+    "Exact geometry preservation is supported by the reviewed triangle correspondence and renderer permutation design; this report does not certify unrelated pose or skin alignment changes.",
+    "Final renamed IDs may change but every approved triangle membership array must remain exactly equal to this pinned candidate. Final Blender/public viewer presentation remains to be reviewed."
+  ]
+}

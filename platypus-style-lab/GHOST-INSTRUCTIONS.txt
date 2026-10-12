@@ -1,0 +1,1 @@
+Open a Ghost post or page. Add an HTML card and paste the entire contents of ghost-html-card.html. Preview on desktop and mobile, then publish when ready. The iframe opens Style 1 in Anatomy mode; visitors can cycle all ten designs and views. Change style=1 or view=anatomy in the iframe URL to choose a different opening. The public viewer retains its own model and font credits.

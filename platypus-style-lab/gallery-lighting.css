@@ -1,0 +1,19 @@
+body.gallery-lighting{--ink:#eee2cf;--muted:#b9a88f;--paper:#211b17;--panel:#2a211b;--line:#5b4533;background:#191512;color:var(--ink)}
+body.gallery-lighting .topbar,body.gallery-lighting .viewer-meta,body.gallery-lighting .viewer-footer{background:#211b17;border-color:#4d3b2d;color:#d8c4a4}
+body.gallery-lighting .viewer-card,body.gallery-lighting .side-panel{background:#211b17;border-color:#4d3b2d}
+body.gallery-lighting .viewer-stage{background:linear-gradient(180deg,rgba(11,14,17,.10),rgba(10,12,15,.22)),url('./assets/museum-gallery-soft.jpg') center center/cover no-repeat #111316}
+body.gallery-lighting #model-canvas{background:transparent!important}
+body.gallery-lighting .draft-switchbar{background:#2a211b!important;color:#d8c4a4}
+body.gallery-lighting .draft-switchbar button{background:#35291f;color:#eadbc2;border:1px solid #725b41;border-radius:3px;padding:9px 13px}
+body.gallery-lighting .draft-switchbar button[aria-pressed=true],body.gallery-lighting .draft-switchbar button.selected{background:#d6bd91;color:#21170f;border-color:#e8d3ad}
+body.gallery-lighting .state-option{background:#29211b;color:#eadbc2;border-color:#594634}
+body.gallery-lighting .state-option.selected{border-color:#d6bd91;background:#3a2d22}
+body.gallery-lighting .v2-mode-panel,body.gallery-lighting .v2-transition-tray{background:#29211b;border-color:#594634}
+body.gallery-lighting .v2-modes button{background:#33281f;color:#eadbc2;border-color:#594634}
+body.gallery-lighting .v2-modes button[aria-pressed=true]{border-color:#dfc292;box-shadow:0 0 0 1px #dfc292 inset}
+body.gallery-lighting .page-footer{color:#b9a88f;border-color:#4d3b2d}
+
+body.gallery-lighting .v2-mode-panel,body.gallery-lighting .v2-transition-tray{display:none!important}
+body.gallery-lighting .viewer-stage{height:min(58vw,760px);min-height:520px}
+@media(max-width:480px){body.gallery-lighting .viewer-stage{height:120vw;min-height:430px}}
+
