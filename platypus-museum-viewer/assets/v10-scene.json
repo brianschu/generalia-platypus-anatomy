@@ -1,0 +1,123 @@
+{
+  "sourceSha256": "eba1dd1361ae41dacd4022e1f696dac97e50f5b89a7d86eef602278cfbe8160e",
+  "engine": "Cycles",
+  "samples": 128,
+  "resolution": [
+    1600,
+    900
+  ],
+  "camera": {
+    "position": [
+      -0.3499999940395355,
+      1.2000000476837158,
+      5.400000095367432
+    ],
+    "target": [
+      0.0,
+      0.41999998688697815,
+      -0.0
+    ],
+    "fov": 29.65295994071133,
+    "lens": 68.0,
+    "focusDistance": 5.467257022857666,
+    "fstop": 2.200000047683716
+  },
+  "lights": [
+    {
+      "name": "Key | warm museum softbox",
+      "position": [
+        -2.5999999046325684,
+        3.4000000953674316,
+        2.299999952316284
+      ],
+      "direction": [
+        0.5731768608093262,
+        -0.6437216401100159,
+        -0.5070409774780273
+      ],
+      "energy": 660.0,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.47999998927116394
+      ],
+      "size": 0.949999988079071,
+      "shape": "DISK"
+    },
+    {
+      "name": "Fill | soft neutral return",
+      "position": [
+        2.799999952316284,
+        1.7999999523162842,
+        2.5
+      ],
+      "direction": [
+        -0.7019220590591431,
+        -0.3384264409542084,
+        -0.6267159581184387
+      ],
+      "energy": 18.0,
+      "color": [
+        0.7799999713897705,
+        0.8399999737739563,
+        1.0
+      ],
+      "size": 2.5,
+      "shape": "DISK"
+    },
+    {
+      "name": "Rim | warm upper gallery",
+      "position": [
+        0.0,
+        3.0,
+        -1.100000023841858
+      ],
+      "direction": [
+        -2.8584944189447015e-08,
+        -0.9153150320053101,
+        0.4027386009693146
+      ],
+      "energy": 140.0,
+      "color": [
+        1.0,
+        0.7300000190734863,
+        0.47999998927116394
+      ],
+      "size": 1.600000023841858,
+      "shape": "DISK"
+    },
+    {
+      "name": "Top | broad soft ambient",
+      "position": [
+        0.0,
+        4.400000095367432,
+        0.10000000149011612
+      ],
+      "direction": [
+        0.0,
+        -0.9997026920318604,
+        -0.02438293769955635
+      ],
+      "energy": 25.0,
+      "color": [
+        1.0,
+        0.8600000143051147,
+        0.699999988079071
+      ],
+      "size": 2.299999952316284,
+      "shape": "DISK"
+    }
+  ],
+  "environmentIntensity": 0.105,
+  "skeletonCenter": [
+    0.0,
+    0.4335329532623291,
+    -2.9802322387695312e-08
+  ],
+  "linearBoneColor": [
+    0.53,
+    0.39,
+    0.26
+  ],
+  "materialScope": "V10 base color including its procedural AO, roughness and tangent normal baked at 2048px; Cycles subsurface approximated in browser, not exact."
+}

@@ -1,0 +1,4 @@
+Self-hosted Google Fonts Latin subsets.
+Source request: https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;600&family=VT323&family=Press+Start+2P&display=swap
+Families: Barlow Condensed, Space Grotesk, IBM Plex Mono, VT323, Press Start 2P.
+All families distributed under the SIL Open Font License. See respective Google Fonts family repositories and bundled licenses.

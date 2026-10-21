@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#11120f"><title>Generalia / Museum render test</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='%23c5ae7f'/%3E%3C/svg%3E">  <script type="module" crossorigin src="./assets/index-Bbc91k-F.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-9xALw3MV.css">
+</head>
+<body><main>
+<header><a class="brand" href="#">GENERALIA <span>FIELD INTERFACE 01</span></a><span class="edition">MUSEUM LIGHTING · QUALITY TEST</span></header>
+<div class="intro"><div><p class="eyebrow">FIELD INTERFACE 01</p><h1>Monotreme / scan system</h1></div><div class="badge"><i></i><span>LIVING · IVORY · ANATOMY<br><small>Environment hidden · lighting retained</small></span></div></div>
+<section class="exhibit" aria-label="Museum quality scanner test">
+<div class="toolbar"><div role="group" aria-label="View"><button data-view="living" aria-pressed="false">01 / Living</button><button data-view="skeleton" aria-pressed="false">02 / Ivory skeleton</button><button data-view="anatomy" aria-pressed="true">03 / Anatomy colors</button></div><div role="group" aria-label="Scanner controls"><button id="toggle-scanner" aria-pressed="true">Scanner window</button><button id="toolbar-dock">Dock scanner</button></div></div>
+<div class="inspection-layout">
+<div class="stage" id="stage"><canvas id="canvas" aria-label="Interactive platypus render"></canvas><img id="reference" src="./assets/cycles-reference.png" alt="Actual V10 Cycles render with its museum background hidden" hidden><div id="loading" role="status"><span class="spinner"></span><strong>Preparing the museum light</strong><span id="load-message">Loading the specimen and its surface detail…</span></div><div id="error" hidden role="alert"></div>
+<div class="scan-tablet" id="scanner" hidden><div class="scan-handle" tabindex="0" role="button" aria-label="Move scanner; arrow keys move it"><span>⠿</span><strong>BIO SCANNER</strong><button id="dock" title="Dock scanner" aria-label="Dock scanner">⤢</button></div><div class="scan-glass"><span class="scan-label">SURFACE / LIVE</span></div><div class="scan-bottom"><span>LIVE SPECIMEN</span><button class="resize" aria-label="Resize scanner">↘</button></div></div>
+<div class="stage-controls"><button id="reset" title="Return to V10 camera" aria-label="Return to V10 camera">↺</button><button id="fullscreen" aria-label="Fullscreen">⛶</button></div><span class="orbit">DRAG TO ORBIT · SCROLL TO ZOOM</span><span class="reference-note" hidden>ACTUAL CYCLES RENDER / V10 CAMERA</span></div>
+<aside class="scanner-key" id="anatomy-key"><div class="scanner-key-title"><strong>Skeletal channels</strong><span>SELECT A CHANNEL</span></div><div class="scanner-key-items" id="channel-list"></div><p class="key-help">Hover to highlight. Select to explore; Return restores your view. Reviewed skeletal groups; fine contacts remain uncertain.</p></aside>
+</div>
+<div class="render-status" aria-live="polite"><span><i id="status-dot"></i><strong id="status">Loading</strong></span><span id="samples">—</span></div>
+</section>
+<p class="pose-note" role="note"><strong>Pose note:</strong> The hind legs are positioned differently in the living and skeleton views. Their alignment is still being refined.</p>
+<div class="details"><div role="group" aria-label="Render comparison"><button data-render="quality" aria-pressed="true">Refined light</button><button data-render="preview" aria-pressed="false">Fast preview</button><button data-render="reference" aria-pressed="false">Cycles reference</button></div><label>Refinement <select id="sample-budget"><option value="128" selected>128 samples</option><option value="256">256 samples</option><option value="512">512 samples</option></select></label></div><p id="help">Drag to orbit. The table clears automatically when viewing underneath. Stop moving to refine the light.</p>
+<footer><span>PLATYPUS / MUSEUM RENDER STUDY</span><a href="./credits.html">Model &amp; rendering credits ↗</a></footer>
+</main></body></html>

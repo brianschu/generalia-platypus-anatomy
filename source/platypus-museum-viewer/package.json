@@ -1,0 +1,1 @@
+{"name":"generalia-museum-quality-test","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1 --port 8772 --strictPort","build":"vite build --base ./"},"dependencies":{"oidn-web":"^0.5.0","three":"0.186.1","three-gpu-pathtracer":"0.0.27","three-mesh-bvh":"0.9.16","xatlas-web":"0.1.0"},"devDependencies":{"vite":"6.2.6"}}
