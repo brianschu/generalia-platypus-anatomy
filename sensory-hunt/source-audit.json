@@ -1,0 +1,12 @@
+{
+  "baseline": "C:\\Users\\user\\Documents\\Codex\\2026-09-30\\referenced-chatgpt-conversation-this-is-an\\outputs\\generalia-platypus-sense-prototype-v4.html",
+  "baseline_sha256": "375bb881d9533bfc06b7a4d39eb0146f74496ef3d343857ff1c090e9fae226a9",
+  "model_source": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6ac5135d2124819186ee3d3d18e7f9a4\\blender\\OAN_ADULT_MALE_SE_MAINLAND_01.glb",
+  "copied_model_sha256": "a55ced6a75ba1f3ad6477e4e9a6970e10b0c5956a063e88ff0dd5fa9ef133b57",
+  "derivation": "V4 HTML retained: river banks, Water/Sky, habitat log, vegetation, controls, concealed prey state and pouch UI. Sensory algorithm, camera, encounter state and animation replaced for V6.",
+  "baseline_unchanged_verified": true,
+  "original_model_sha256": "a55ced6a75ba1f3ad6477e4e9a6970e10b0c5956a063e88ff0dd5fa9ef133b57",
+  "copied_model_matches_original": true,
+  "revision": "3",
+  "runtime_additions": "Approximate eyelid geometry, mesh deformation and sensory overlays are created in V6 only; no source asset was overwritten."
+}
