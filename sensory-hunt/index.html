@@ -116,7 +116,7 @@ window.sensoryBoot=(()=>{
   const slow=setTimeout(()=>{if(!settled){status.textContent='Still loading the full-body model. A slow connection may take a little longer.';retry.hidden=false;}},45000);
   const fail=()=>{if(settled)return;settled=true;clearTimeout(slow);button.disabled=true;button.textContent='THE RIVER COULD NOT LOAD';status.textContent=location.protocol==='file:'?'Open this game through its website or a local web server, then try again.':'Check your connection, then try again. Your browser also needs WebGL 2 graphics support.';retry.hidden=false;};
   addEventListener('error',fail,true);addEventListener('unhandledrejection',fail);
-  return {fail,progress:event=>{if(settled)return;status.textContent=event.lengthComputable?'Downloading the full-body platypus: '+Math.round(event.loaded/event.total*100)+'%':'Downloading the full-body platypus…';},ready:()=>{settled=true;clearTimeout(slow);status.textContent='The river is ready.';retry.hidden=true;}};
+  return {fail,progress:event=>{if(settled)return;status.textContent=event.lengthComputable?'Downloading the full-body platypus: '+Math.min(100,Math.round(event.loaded/event.total*100))+'%':'Downloading the full-body platypus…';},ready:()=>{settled=true;clearTimeout(slow);status.textContent='The river is ready.';retry.hidden=true;}};
 })();
 </script>
 <script type="module">
